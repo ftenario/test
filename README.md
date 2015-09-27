@@ -10,9 +10,7 @@ Ex. "ln -s /etc/init.d/seaweed /etc/rc3.d/S90seaweed"
 
 # Configuration
 
-**Location of your weed binary**
-
-BINARY=/usr/local/bin/weed 
+**BINARY=/usr/local/bin/weed** //Location of your weed binary
 
 **Log directory**
 
