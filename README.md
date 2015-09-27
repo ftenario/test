@@ -1,10 +1,14 @@
-# test
-
 # seaweed-startup
 
-This is a startup script for Debian Linux. Copy the file to /etc/init.d and create a symlink on your runlevel.
+# Description
+This is a startup script for SeadweedFS on Debian Linux. 
 
-Change parameters accorningly.
+# Installation
+Copy the file to /etc/init.d and create a symlink on your runlevel.
+Ex. "ln -s /etc/init.d/seaweed /etc/rc3.d/S90seaweed"
+
+
+# Configuration
 
 **Location of your weed binary**
 
@@ -26,6 +30,17 @@ DIR=/techops/weedfs/
 
 IP=$(hostname)
 
+**Listening port for volume servers**
+
+PORT=8080 
+
+**Master server address**
+
+MSERVER=localhost:9333 
+
+**Max number of volumes**
+
+MAX=100
 **Listening port for volume servers**
 
 PORT=8080 
