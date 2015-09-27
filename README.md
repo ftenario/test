@@ -2,7 +2,8 @@
 
 Change parameters accorningly.
 
-// Location of your weed binary \n
+// Location of your weed binary
+
 BINARY=/usr/local/bin/weed 
 
 // Log directory
