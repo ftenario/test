@@ -12,41 +12,16 @@ Ex. "ln -s /etc/init.d/seaweed /etc/rc3.d/S90seaweed"
 
 **BINARY=/usr/local/bin/weed** //Location of your weed binary
 
-**Log directory**
+**LOG=/techops/weedfs-log/** //Log directory
 
-LOG=/techops/weedfs-log/ 
+**TYPE=volume** //Type of weed server. Set this to "volume"
 
-**Type of weed server. Set this to "volume"**
+**DIR=/techops/weedfs/** //Location of data
 
-TYPE=volume 
+**IP=$(hostname)** //From /etc/hostname. Change this to IP address to be able to link from the master server
 
-**Location of data**
+**PORT=8080** //Listening port for volume servers
 
-DIR=/techops/weedfs/ 
+**MSERVER=localhost:9333** //Master server address
 
-**From /etc/hostname. Change this to IP address to be able to link from the master server**
-
-IP=$(hostname)
-
-**Listening port for volume servers**
-
-PORT=8080 
-
-**Master server address**
-
-MSERVER=localhost:9333 
-
-**Max number of volumes**
-
-MAX=100
-**Listening port for volume servers**
-
-PORT=8080 
-
-**Master server address**
-
-MSERVER=localhost:9333 
-
-**Max number of volumes**
-
-MAX=100
+**MAX=100** //Maximum number of volumes
