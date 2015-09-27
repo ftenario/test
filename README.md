@@ -2,7 +2,7 @@
 
 Change parameters accorningly.
 
-*Location of your weed binary
+*Location of your weed binary*
 
 BINARY=/usr/local/bin/weed 
 
