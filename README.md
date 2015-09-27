@@ -8,7 +8,7 @@ BINARY=/usr/local/bin/weed
 
 LOG=/techops/weedfs-log/ 
 
-**Type of weed server. Set this for "volume" **
+**Type of weed server. Set this for "volume"**
 
 TYPE=volume 
 
